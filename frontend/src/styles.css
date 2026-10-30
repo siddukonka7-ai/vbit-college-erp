@@ -1,0 +1,32 @@
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.erp-card {
+  border-radius: 16px;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.erp-card:hover {
+  box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.08);
+}
+.sidebar-btn {
+  border-radius: 10px;
+  font-weight: 600;
+  text-align: left;
+  padding: 10px 14px;
+  border: none;
+  width: 100%;
+  margin-bottom: 6px;
+  transition: all 0.15s ease;
+}
+.progress {
+  border-radius: 999px;
+  overflow: hidden;
+}
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
